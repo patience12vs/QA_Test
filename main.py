@@ -1,5 +1,5 @@
 
-import pip._vendor .requests as req
+import requests as req
 
 def get_weather_data(city):
     url = f"https://samples.openweathermap.org/data/2.5/forecast/hourly?q={city}&appid=b6907d289e10d714a6e88b30761fae22"
